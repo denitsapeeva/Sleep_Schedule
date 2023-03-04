@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SleepSchedule1.MainPage">
+
+    <!-- User Interface !-->
+
+    <StackLayout Padding="20" BackgroundColor="Pink" >
+
+        <!-- Title -->
+        <Label Text="Бебешки график" FontSize="50"
+               HorizontalOptions="Center"  />
+
+        <Image Source="baby_new_logo.png"   VerticalOptions="Center" HeightRequest="200" />
+        <!-- Description -->
+        
+        <Label Text="Ако имате проблеми със съня на вашето бебе, като чести събуждания нощем, трудно заспиване и кратки дремки, това е правилното приложение за вас!"
+               FontSize="30"  Margin="0,0,0,0" Padding="20" BackgroundColor="#FFAFEEEE" />
+
+        <Label Text="Навиците за сън на бебетата могат да обърнат живота ни с главата надолу. За повечето родители с малки бебета е характерно хроничното недоспиване. Как да промените това?"
+               FontSize="30"  Padding="20" BackgroundColor="#FFAFEEEE"/>
+
+        <Label Text="Можете да започнете с това да научите повече за бебешкия сън. Когато разберете как и защо спят малките деца, ще изберете правилната стратегия за вашето семейство и ще се успокоите."
+               FontSize="30"  Padding="20" BackgroundColor="#FFAFEEEE"/>
+        <Label Text = "За да спи вашето бебе спокойно то трябва да има изграден режим за заспиване, с това приложение вие ще можете да изградите такъв, а ако вече го имате ще можете да продължите да го поддържате по-лесно."
+              FontSize="30"  Padding="20" BackgroundColor="#FFAFEEEE" />
+        
+        <!-- Button -->
+        <Button Text="Започни сега!" BorderColor="Black" BorderWidth="3" FontSize="30" Clicked="Button_Clicked" HeightRequest="80"/>
+
+    </StackLayout>
+
+</ContentPage>
+
+

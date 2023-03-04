@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SleepSchedule1.StartSchedule">
+    <ContentPage.Content>
+        <StackLayout Padding="20" BackgroundColor="Pink" >
+
+            <!-- Title -->
+            <Label Text="Бебешки график" FontSize="50"
+               HorizontalOptions="Center"  />
+            <Image Source="baby_new_logo.png"   VerticalOptions="Center" HeightRequest="200" />
+
+            <Label Text="Име на детето"/>
+            <Entry x:Name="name" Keyboard="Text"/>
+
+            <Label Text="Дата на раждане"/>
+            <DatePicker DateSelected="DatePicker_DateSelected"/>
+            <Label Text="Възраст в месеци"/>
+            <Entry x:Name="age" Keyboard="Numeric" />
+
+            <Label Text="Брой спанета на ден"/>
+            <Entry x:Name="SleepNumber" Keyboard="Numeric"/>
+
+            <Button Text="Продължи!"  BorderColor="Black" BorderWidth="3"
+                    FontSize="30" Clicked="Button_Clicked_Continue" HeightRequest="80"/>
+           
+                
+           
+
+           
+
+
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

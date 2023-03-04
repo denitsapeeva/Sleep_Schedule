@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SleepSchedule1.StartNow">
+    
+    <ContentPage.Content>
+        <StackLayout Padding="20" BackgroundColor="Pink" >
+
+            <!-- Title -->
+            <Label Text="Бебешки график" FontSize="50"
+               HorizontalOptions="Center"  />
+            <Image Source="baby_new_logo.png"   VerticalOptions="Center" HeightRequest="200" />
+            <!-- Information -->
+            
+            <Label Text=" Научи повече за това, колко време може да стои будно бебето и от колко часа сън има нужда."
+               FontSize="30"  Padding="20" BackgroundColor="#FFAFEEEE"/>
+            <Button Text="->" FontSize="30" Clicked="Button_Clicked_Sleep"/>
+
+            <Label Text="Научи повече за сигналите за сън и как да ги разпознаваме."
+               FontSize="30"  Padding="20" BackgroundColor="#FFAFEEEE"/>
+            <Button Text="->" FontSize="30" Clicked="Button_Clicked_Signal"/>
+
+            <Label Text="Научете повече за ритуалите за сън и как това може да помогне за по-лесното заспиване на бебето."
+               FontSize="30"  Padding="20" BackgroundColor="#FFAFEEEE"/>
+            <Button Text="->" FontSize="30" Clicked="Button_Clicked_Rituals"/>
+
+            <Label Text="Научете повече за това как да помогнете на бебето да започне да заспива самостоятелно или с по-малко ваша помощ."
+               FontSize="30"  Padding="20" BackgroundColor="#FFAFEEEE"/>
+            <Button Text="->" FontSize="30" Clicked="Button_Clicked_Sleep_Alone"/>
+
+            <!-- Start Schedule -->
+            <Button Text="Въведи график!" BorderColor="Black" BorderWidth="3"
+                    FontSize="30" Clicked="Button_Clicked_Start_Schedule" HeightRequest="80"/>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "274aa85f-edca-4a6c-853b-1c2878bea752": {
+      "ProjectGuid": "274aa85f-edca-4a6c-853b-1c2878bea752",
+      "DisplayName": "SleepSchedule1",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "bf9f234b-3728-4bb1-acb1-8a407c7e3bda": {
+      "ProjectGuid": "bf9f234b-3728-4bb1-acb1-8a407c7e3bda",
+      "DisplayName": "SleepSchedule1.Android",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
